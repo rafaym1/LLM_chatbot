@@ -1,0 +1,5 @@
+huggingface_hub
+sentence_transformers
+langchain
+
+
