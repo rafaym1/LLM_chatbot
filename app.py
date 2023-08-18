@@ -18,7 +18,7 @@ def load_docs_from_jsonl(file_path)->Iterable[Document]:
     return array
 
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = 
 
 llm=HuggingFaceHub(repo_id="google/flan-t5-small", model_kwargs={"temperature":0.5, "max_length":500})
 
